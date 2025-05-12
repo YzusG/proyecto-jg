@@ -1,19 +1,55 @@
 /* Estilo de la barra de navegacion */
 .flex-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 10vh;
-  /* background-color: ; */
+  background-color: #f0f0f0c7;
+  margin: auto;
 }
 #navbar ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   list-style: none;
 }
 #navbar ul li a {
   text-decoration-line: none;
   color: #000;
-  margin: 5px;
+}
+#navbar ul li {
+  padding: 1rem;
+}
+#navbar ul:last-child {
+  margin-right: 1rem;
+}
+
+/* estilo del showcase */
+#show-case {
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+}
+/* ?Buscar una mejor imagen que cubra todo el espacio sin recortarse */
+#show-case #show-image {
+  width: 50%;
+  height: 100%;
+  background: url(../img/Frontal-Opcion-A.JPG) no-repeat center/cover;
+}
+/* estilo de quienes somos */
+#quienes-somos .flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  background-color: #000;
+  height: 30vh;
+}
+#quienes-somos .flex-container p {
+  color: #ffff;
+}
+/* Estilo de productos */
+#productos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
