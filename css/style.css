@@ -13,34 +13,43 @@
   background-color: #f0f0f0c7;
   margin: auto;
 }
-#navbar ul {
+.flex-container #navbar ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style: none;
 }
-#navbar ul li a {
+.flex-container #navbar ul li a {
   text-decoration-line: none;
   color: #000;
 }
-#navbar ul li {
+.flex-container #navbar ul li {
   padding: 1rem;
 }
-#navbar ul:last-child {
+.flex-container #navbar ul:last-child {
   margin-right: 1rem;
 }
-
+.flex-container #logo {
+  margin-left: 0.5rem;
+  margin-top: 0.75rem;
+}
 /* estilo del showcase */
 #show-case {
   display: flex;
   justify-content: space-between;
-  height: 50 vh;
+  height: 50vh;
 }
 /* ?Buscar una mejor imagen que cubra todo el espacio sin recortarse */
 #show-case #show-image {
-  width: 50%;
+  width: 100%;
   height: 100%;
-  background: url(../img/Frontal-Opcion-A.JPG) no-repeat center/cover;
+  background: url(../img/ALMACEN.jpg) no-repeat center/contain;
+}
+#show-case #show-image p {
+  color: #ffff;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 10%;
 }
 /* estilo de quienes somos */
 #quienes-somos .flex-container {
