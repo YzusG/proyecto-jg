@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Estilo de la barra de navegacion */
 .flex-container {
   display: flex;
@@ -43,6 +49,14 @@
   flex-direction: row-reverse;
   background-color: #000;
   height: 30vh;
+}
+#quienes-somos .flex-container #image-somos {
+  background-image: url(../img/image5.png);
+  background-position: center;
+  background-position: cover;
+  background-repeat: no-repeat;
+  width: 75%;
+  height: 100%;
 }
 #quienes-somos .flex-container p {
   color: #ffff;
