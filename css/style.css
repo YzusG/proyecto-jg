@@ -28,7 +28,7 @@
 #show-case {
   display: flex;
   justify-content: space-between;
-  height: 50vh;
+  height: 50 vh;
 }
 /* ?Buscar una mejor imagen que cubra todo el espacio sin recortarse */
 #show-case #show-image {
