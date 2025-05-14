@@ -11,6 +11,7 @@
   align-items: center;
   height: 10vh;
   background-color: #f0f0f0c7;
+  padding-bottom: 1rem;
   margin: auto;
 }
 .flex-container #navbar ul {
@@ -30,26 +31,23 @@
   margin-right: 1rem;
 }
 .flex-container #logo {
-  margin-left: 0.5rem;
-  margin-top: 0.75rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
 /* estilo del showcase */
 #show-case {
-  display: flex;
-  justify-content: space-between;
   height: 50vh;
 }
-/* ?Buscar una mejor imagen que cubra todo el espacio sin recortarse */
-#show-case #show-image {
+#show-case div {
   width: 100%;
   height: 100%;
   background: url(../img/ALMACEN.jpg) no-repeat center/contain;
 }
-#show-case #show-image p {
+#show-case div p {
   color: #ffff;
   font-size: 1rem;
   text-align: center;
-  margin-top: 10%;
+  padding-top: 10%;
 }
 /* estilo de quienes somos */
 #quienes-somos .flex-container {
@@ -57,14 +55,14 @@
   justify-content: space-between;
   flex-direction: row-reverse;
   background-color: #000;
-  height: 30vh;
+  height: 70vh;
 }
 #quienes-somos .flex-container #image-somos {
   background-image: url(../img/image5.png);
   background-position: center;
-  background-position: cover;
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 75%;
+  width: 80%;
   height: 100%;
 }
 #quienes-somos .flex-container p {
@@ -73,6 +71,15 @@
 /* Estilo de productos */
 #productos {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+}
+#productos .cabezal img,
+#productos .BOPU img,
+#productos .BOPA img {
+  width: 50%;
+  height: 50%;
+}
+#contact {
+  margin: 1rem;
 }
