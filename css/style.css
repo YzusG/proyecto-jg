@@ -75,12 +75,41 @@
   justify-content: space-around;
   align-items: center;
 }
-#productos .cabezal img,
-#productos .BOPU img,
-#productos .BOPA img {
-  width: 50%;
-  height: 50%;
+#productos {
+  height: 40vh;
 }
+#productos .product-card {
+  width: 30%;
+  height: 100%;
+  align-items: center;
+}
+#productos .product-card #wellhead-img {
+  height: 45%;
+  width: 45%;
+  background: url("../img/conventional-oil-wellhead-tools.jpg") center
+    center/cover no-repeat;
+}
+#productos .product-card #bop-double-img {
+  height: 45%;
+  width: 45%;
+  background: url(../img/BOP-DOUBLE.jpg) center center/contain no-repeat;
+}
+#productos .product-card #bop-anular-img {
+  height: 45%;
+  width: 45%;
+  background: url(../img/BOP-ANULAR.jpg) center center/contain no-repeat;
+}
+#productos .product-card #manifold-img {
+  height: 45%;
+  width: 45%;
+  background: url(../img/manifold.png) center center/contain no-repeat;
+}
+#productos .product-card #hanger {
+  height: 45%;
+  width: 45%;
+  background: url(../img/colgador.png) center center/contain no-repeat;
+}
+
 #contact {
   margin: 1rem;
 }
