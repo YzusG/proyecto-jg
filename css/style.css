@@ -70,43 +70,45 @@
   color: #ffff;
 }
 /* Estilo de productos */
-#productos {
-  display: flex;
+/* !! Cambiar a grid y actualizar todo, mejorar las cartas */
+#products {
+  display: grid;
+  grid-template-columns: 1fr auto;
   justify-content: space-around;
   align-items: center;
 }
 #productos {
-  height: 40vh;
+  height: 10vh;
 }
 #productos .product-card {
-  width: 30%;
+  width: 50%;
   height: 100%;
   align-items: center;
 }
 #productos .product-card #wellhead-img {
-  height: 45%;
-  width: 45%;
+  height: 50%;
+  width: 100%;
   background: url("../img/conventional-oil-wellhead-tools.jpg") center
     center/cover no-repeat;
 }
 #productos .product-card #bop-double-img {
-  height: 45%;
-  width: 45%;
+  height: 50%;
+  width: 100%;
   background: url(../img/BOP-DOUBLE.jpg) center center/contain no-repeat;
 }
 #productos .product-card #bop-anular-img {
-  height: 45%;
-  width: 45%;
+  height: 50%;
+  width: 100%;
   background: url(../img/BOP-ANULAR.jpg) center center/contain no-repeat;
 }
 #productos .product-card #manifold-img {
-  height: 45%;
-  width: 45%;
+  height: 50%;
+  width: 100%;
   background: url(../img/manifold.png) center center/contain no-repeat;
 }
 #productos .product-card #hanger {
-  height: 45%;
-  width: 45%;
+  height: 50%;
+  width: 100%;
   background: url(../img/colgador.png) center center/contain no-repeat;
 }
 
