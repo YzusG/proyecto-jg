@@ -6,7 +6,7 @@
 }
 
 /* Estilo de la barra de navegacion */
-.flex-container {
+.navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,23 +17,23 @@
   top: 0;
   z-index: 2000;
 }
-.flex-container #navbar ul {
+.navbar-container #navbar ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style: none;
 }
-.flex-container #navbar ul li a {
+.navbar-container #navbar ul li a {
   text-decoration-line: none;
   color: #fff;
 }
-.flex-container #navbar ul li {
+.navbar-container #navbar ul li {
   padding: 1rem;
 }
-.flex-container #navbar ul:last-child {
+.navbar-container #navbar ul:last-child {
   margin-right: 1rem;
 }
-.flex-container #logo {
+.navbar-container #logo {
   margin-top: 1rem;
   margin-left: 1rem;
 }
@@ -56,14 +56,15 @@
   top: 50%;
 }
 /* estilo de quienes somos */
-#quienes-somos .flex-container {
+#quienes-somos .who-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-direction: row-reverse;
   background-color: #000;
   height: 70vh;
 }
-#quienes-somos .flex-container #image-somos {
+#quienes-somos .who-container #image-somos {
   background-image: url(../img/image5.png);
   background-position: center;
   background-size: cover;
@@ -71,8 +72,9 @@
   width: 80%;
   height: 100%;
 }
-#quienes-somos .flex-container p {
+#quienes-somos .who-container p {
   color: #ffff;
+  top: 50%;
 }
 /* Estilo de productos */
 /* !! Cambiar a grid y actualizar todo, mejorar las cartas */
@@ -89,6 +91,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 0.15rem 16px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 #products .product-card #wellhead-img {
   height: 50%;
@@ -122,6 +126,7 @@
   justify-content: space-around;
   align-items: center;
   height: 40vh;
+  margin-top: 1rem;
 }
 
 #contact .img-contact {
@@ -132,6 +137,7 @@
 #contact form {
   height: 100%;
   width: 40%;
+  align-items: center;
 }
 #contact form input {
   padding: 0.5rem;
