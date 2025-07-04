@@ -1,8 +1,7 @@
-// import { navbar.js } from "createNavbar";
+import { createNavbar } from "./navbar";
 
 export const App = () => {
-  console.log("Hola mundo");
-  // createNavbar()
+  createNavbar();
 };
 
 App();
