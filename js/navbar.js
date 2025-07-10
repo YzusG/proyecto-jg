@@ -11,9 +11,9 @@ export const createNavbar = () => {
   navbar.innerHTML = `
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">Quienes Somos</a></li>
-          <li><a href="#">Productos</a></li>
-          <li><a href="#">Contactos</a></li>
+          <li><a href="#quienes-somos">Quienes Somos</a></li>
+          <li><a href="#products">Productos</a></li>
+          <li><a href="#contact">Contactos</a></li>
         </ul>`;
   navbarContainer.appendChild(logo);
   navbarContainer.appendChild(navbar);
