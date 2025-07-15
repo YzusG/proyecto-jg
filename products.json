@@ -1,27 +1,22 @@
 [
   {
     "id": "wellhead-img",
-    "title": "Cabezales",
-    "img": "/img/conventional-oil-wellhead-tools.jpg"
+    "title": "Cabezales"
   },
   {
     "id": "bop-doble-img",
-    "title": "BOP",
-    "img": "/img/BOP-DOUBLE.jpg"
+    "title": "BOP"
   },
   {
     "id": "bop-anular-img",
-    "title": "BOP Anular",
-    "img": "/img/BOP-ANULAR.jpg"
+    "title": "BOP Anular"
   },
   {
     "id": "manifold-img",
-    "title": "Manifold",
-    "img": "/img/manifold.png"
+    "title": "Manifold"
   },
   {
     "id": "hanger",
-    "title": "Colgador",
-    "img": "/img/colgador.png"
+    "title": "Colgador"
   }
 ]
