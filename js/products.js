@@ -17,7 +17,8 @@ export const products = async () => {
       productCard.appendChild(div);
       productCard.appendChild(p);
       productosContainer.appendChild(productCard);
-      document.body.appendChild(productosContainer);
+      const quienesSomosSection = document.getElementById("quienes-somos");
+      quienesSomosSection.after(productosContainer);
     });
   } catch (error) {
     console.error("Hubo un error al cargar o mostrar los productos:", error);
