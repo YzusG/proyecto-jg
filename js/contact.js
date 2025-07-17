@@ -17,5 +17,10 @@ export const contact = () => {
     `;
   section.appendChild(img);
   section.appendChild(form);
-  document.body.appendChild(section);
+  const productsContainer = document.getElementById("products");
+  if (productsContainer) {
+    productsContainer.insertAdjacentElement("afterend", section);
+  } else {
+    document.body.appendChild(section);
+  }
 };
