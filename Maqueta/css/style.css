@@ -45,7 +45,7 @@
   position: relative;
   width: 100%;
   height: 100%;
-  background: url(/img/108183233_106045061192316_7885413860165145671_n.jpg)
+  background: url(./img/108183233_106045061192316_7885413860165145671_n.jpg)
     no-repeat center/cover;
 }
 #show-case div p {
@@ -65,7 +65,7 @@
   height: 70vh;
 }
 #quienes-somos .who-container #image-somos {
-  background-image: url(/img/image5.png);
+  background-image: url(./img/image5.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -96,23 +96,23 @@
 #products .product-card #wellhead-img {
   height: 50%;
   width: 100%;
-  background: url("/img/conventional-oil-wellhead-tools.jpg") center
+  background: url("./img/conventional-oil-wellhead-tools.jpg") center
     center/cover no-repeat;
 }
 #products .product-card #bop-anular-img {
   height: 50%;
   width: 100%;
-  background: url(/img/BOP-ANULAR.jpg) center center/contain no-repeat;
+  background: url(./img/BOP-ANULAR.jpg) center center/contain no-repeat;
 }
 #products .product-card #manifold-img {
   height: 50%;
   width: 100%;
-  background: url(/img/manifold.png) center center/contain no-repeat;
+  background: url(./img/manifold.png) center center/contain no-repeat;
 }
 #products .product-card #hanger {
   height: 50%;
   width: 100%;
-  background: url(/img/colgador.png) center center/contain no-repeat;
+  background: url(./img/colgador.png) center center/contain no-repeat;
 }
 
 #contact {
@@ -126,7 +126,7 @@
 #contact .img-contact {
   width: 60%;
   height: 100%;
-  background: url(/img/contacto-imagen.jpg) center center/cover;
+  background: url(./img/contacto-imagen.jpg) center center/cover;
 }
 #contact form {
   height: 100%;
