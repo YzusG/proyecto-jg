@@ -53,7 +53,7 @@ export const footer = async () => {
   email.innerHTML = `
     <p>
         Contacto:
-        <a href="mailto:gerencia.ventas@ame-s-a.com" target="_blank"
+        <a href="mailto:" target="_blank"
         >gerencia.ventas@ame-s-a.com</a
         >
     </p>
